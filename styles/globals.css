@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    text-rendering: optimizeLegibility;
+    word-break: break-word;
+    word-wrap: break-word;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-font-smoothing: antialiased;
+    font-variant-ligatures: none;
+    /* background-color: theme('colors.base-100'); */
+    /* background-color: var(--color-default); */
+}
+
+
+/* caution: darkmodeの時にうまく適用されない */
+/* @layer components {
+    body {
+        / @apply bg-base-100;
+        background-color: theme('colors.base-100');
+    }
+} */
